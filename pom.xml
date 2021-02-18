@@ -83,15 +83,15 @@
 
     <distributionManagement>
         <repository>
-            <uniqueVersion>false</uniqueVersion>
             <id>Maven</id>
             <url>https://pkgs.dev.azure.com/GIS-DevOps/c7babf3e-7a0a-4d9f-92ad-39fbdde5707a/_packaging/Maven/maven/v1</url>
-            </repository>
-        <snapshotRepository>
-            <uniqueVersion>true</uniqueVersion>
-            <id>Maven</id>
-            <url>https://pkgs.dev.azure.com/GIS-DevOps/c7babf3e-7a0a-4d9f-92ad-39fbdde5707a/_packaging/Maven/maven/v1</url>
-        </snapshotRepository>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
     </distributionManagement>
 
     <pluginRepositories>
