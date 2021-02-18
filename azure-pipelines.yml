@@ -10,6 +10,9 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
+- task: MavenAuthenticate@0
+  inputs:
+    artifactsFeeds: 'Maven'
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
@@ -19,6 +22,4 @@ steps:
     jdkArchitectureOption: 'x64'
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
-    goals: 'package'
-- publish: basic/target
-  artifact: jar
+    goals: 'package deploy'
