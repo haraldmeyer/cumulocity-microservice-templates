@@ -90,7 +90,7 @@
 						</goals>
 						<configuration>
 							<name>templates-basic</name>
-							<image>templates-basic</image>
+							<image>cumulocity-microservice-templates-basic</image>
 							<encoding>UTF-8</encoding>
 							<skip>${c8y.docker.skip}</skip>
 							<skipMicroserviceUpload>false</skipMicroserviceUpload>
