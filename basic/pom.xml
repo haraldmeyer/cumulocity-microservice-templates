@@ -86,6 +86,7 @@
 						<phase>package</phase>
 						<goals>
 							<goal>package</goal>
+							<goal>upload</goal>
 						</goals>
 						<configuration>
 							<name>templates-basic</name>
