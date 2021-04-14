@@ -17,7 +17,7 @@
 
         <spring-boot-dependencies.version>2.3.4.RELEASE</spring-boot-dependencies.version>
         <c8y.version>1006.11.0</c8y.version>
-        <c8y.docker.skip>true</c8y.docker.skip>
+        <c8y.docker.skip>false</c8y.docker.skip>
         <junit.version>4.13</junit.version>
     </properties>
 
