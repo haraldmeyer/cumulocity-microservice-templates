@@ -89,8 +89,11 @@
 							<goal>upload</goal>
 						</goals>
 						<configuration>
-							<name>cumulocity-microservice-templates-basic</name>
-							<image>cumulocity-microservice-templates-basic</image>
+							<application>
+								<name>templates-basic</name>
+							</application>
+							<name>templates-basic</name>
+							<image>templates-basic</image>
 							<encoding>UTF-8</encoding>
 							<skip>${c8y.docker.skip}</skip>
 							<skipMicroserviceUpload>false</skipMicroserviceUpload>
