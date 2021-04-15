@@ -89,6 +89,9 @@
 							<goal>upload</goal>
 						</goals>
 						<configuration>
+							<application>
+								<name>basic2</name>
+							</application>
 							<encoding>UTF-8</encoding>
 							<skip>${c8y.docker.skip}</skip>
 							<skipMicroserviceUpload>false</skipMicroserviceUpload>
