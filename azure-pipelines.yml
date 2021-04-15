@@ -24,3 +24,6 @@ steps:
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
+- task: CmdLine@2
+  inputs:
+    script: 'ls -al /home/vsts/work/1/s/basic/target/'
