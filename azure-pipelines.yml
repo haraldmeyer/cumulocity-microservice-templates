@@ -17,7 +17,7 @@ steps:
   inputs:
     mavenPomFile: 'basic/pom.xml'
     mavenOptions: '-Xmx3072m'
-    options: '-Dupload.application.name=basic -Dupload.url=$(c8y.url) -Dupload.username=$(c8y.user) -Dupload.password=$(c8y.password)'
+    options: '-Dupload.url=$(c8y.url) -Dupload.username=$(c8y.user) -Dupload.password=$(c8y.password)'
     javaHomeOption: 'JDKVersion'
     jdkVersionOption: '1.11'
     jdkArchitectureOption: 'x64'
